@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: repeating-radial-gradient(#EC3663,#FADBD8);
+  font-size: 1.1vw;
+  padding: 2vw;
+  font-family: 'San serif',cursive;
+  font-weight: 900%;
+}
+
+.first {
+  height: 0.2vw;
+  background: #5AAEDE;
+}
+
+.fsec {
+  height: 0.2vw;
+  background: #5ADE90;
+}
+
+
+
+li {
+  display: inline-block;
+  margin-left: 3.5vw;
+}
+
+.find a {
+  text-decoration: none;
+  color: #327BF3;
+  font-size: 1.9vw;
+  font-weight: bold;
+  margin-left: 11vw;
+  font-family: 'Brush Script MT',cursive;
+}
+
+.it1:hover {
+  color: #32F393;
+  transition: 0.3s;
+}
+
+.outer {
+  width: 29vw;
+  height: 37vw;
+  background:#CBEC9A;
+  background-size: cover;
+  float: right;
+  margin-top: .5vw;
+margin-left: 2vw;
+  position: absolute;
+  clear: both;
+  border-radius: 0vw 20vw 0vw 10vw;
+}
+
+.example1 {
+  width: 30vw;
+  height: 38vw;
+  margin-top: 3vw;
+  background:#5AAEDE;
+  position: absolute;
+  background-size: cover;
+  opacity: .8;
+  margin-left: 8vw;
+  clear: both;
+  border-radius: 0vw 20vw 0vw 10vw;
+}
+
+.text {
+  width: 19vw;
+  height: 35vw;
+    padding: 1vw ;
+  background: #F9E9F1;
+  background-size: cover;
+  position: relative;
+  clear: both;
+  border-radius: 0vw 10vw 0vw 10vw;
+   margin-left: 8vw;
+}
+
+.eg2 {
+  width: 30vw;
+  height: 38vw;
+  margin-top: 3vw;
+  background:#5AAEDE;
+  background-size: cover;
+  margin-right: 14vw;
+  opacity: 0.8;
+  margin-top: 3vw;
+  clear: both;
+  float: right;
+  border-radius: 0vw 20vw 0vw 10vw;
+}
+
+.rout {
+ width: 29vw;
+  height: 37vw;
+  background:#CBEC9A;
+  background-size: cover;
+  float: right;
+  margin-top: .5vw;
+margin-left: 2vw;
+  position: absolute;
+  clear: both;
+  border-radius: 0vw 20vw 0vw 10vw;
+}
+
+.rtext {
+   width: 19vw;
+  height: 35vw;
+    padding: 1vw ;
+  background: #F9E9F1;
+  background-size: cover;
+  position: relative;
+  clear: both;
+  border-radius: 0vw 10vw 0vw 10vw;
+   margin-left: 8vw;
+}
+
+.lefterr, .righterr {
+  color: red;
+  font-weight: bolder;
+}
+
+.lefti {
+  color: black;
+  font-weight: bold;
+}
+
+.lefterrclose {
+  color: blue;
+  font-weight: bolder;
+}
+
+.tag {
+  color: green;
+  font-weight: bold;
+}
+
+.data {
+  color: #731DEF;
+  font-weight: bold;
+}
+
+.style {
+  color: orange;
+  font-weight: bold;
+}
+
+.button1, .button2 {
+  color:white ;
+  font-size: 2vw;
+  padding: .7vw;
+  margin-left: 5vw;
+  border-radius: 50%;
+  margin-top: 2vw;
+  text-align: center;
+  background-image: url('colours.jpg');
+  background-size: cover;
+  border: 0.2vw solid white;
+  font-weight: bolder;
+}
+
+.headers {
+  height: 3vw;
+  font-size: 3vw;
+  padding: 0.6vw 2vw 2vw 12vw;
+  text-align: center;
+  font-weight: bolder;
+  color: #F44154 ;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.headers1 {
+  height: 3vw;
+  font-size: 3vw;
+  font-weight: bolder;
+  color: #F44154 ;
+  text-transform: capitalize;
+  text-align: center;
+  padding:  0.6vw 4vw 2vw 19vw;
+  display: inline-block;
+}

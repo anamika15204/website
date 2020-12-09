@@ -1,0 +1,131 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+  font-family: 'Trebuchet MS', sans-serif;
+background-image: url('yellow.png');
+background-size:cover;
+
+  font-weight: 400;
+    padding: 2vw;
+
+
+}
+
+.first {
+  height: 0.2vw;
+  background: #E74C3C;
+}
+.fsec {
+  height: .2vw;
+  background: #48C9B0;
+}
+.find {
+  background: #ff63;
+  padding: .2;
+}
+
+li {
+  display: inline-block;
+  margin-left: 4vw;
+}
+
+.find a {
+  text-decoration: none;
+  color: #E51528;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-left: 11vw;
+  font-family: 'Garamond', cursive;
+}
+
+.it1:hover {
+  color: #01c5c4;
+  transition: 0.2s;
+}
+.resume{
+  font-size: 3vw;
+  text-align: center;
+
+  margin: 1vw 38vw;
+  border-right: 0.8vw solid turquoise;
+    border-left: 0.8vw solid turquoise;
+    border-radius: 50%;
+
+
+ font-family: 'Brush Script MT',cursive;
+  font-size: 4vw;
+  font-weight: 900;
+  color: #0E415E;
+}
+
+#name{
+  display: inline-block;
+margin-left: 5vw;
+
+font-size: 4vw;
+font-family: 'Brush Script MT',cursive;
+font-weight: 500;
+}
+
+.data{
+  font-size: 1.5vw;
+}
+#data{
+  margin-left: 60vw;
+  margin-top: 0.1vw;
+
+}
+.picture{
+  height: 8vw;
+  width: 8vw;
+  position: absolute;
+  left: 44vw;
+  top:12.4vw;
+  border: solid blue, 2vw;
+  border-radius: 20%;
+}
+
+
+
+.exp{
+  margin-bottom: 2vw;
+
+}
+.links{
+  font-size:1vw;
+  color: purple;
+  padding: .2vw;
+}
+.text{
+  color: #03506f;
+  font-size: 1.2vw;
+}
+.button{
+background: #eee;
+font-weight: bold;
+font-size: 1.5vw;
+
+border-radius: 4vw;
+border:none;
+margin: 1vw;
+padding: 0 1.5vw;
+}
+
+.mainhead{
+  color: #E74C3C;
+  font-size: 2vw;
+  border-bottom: #D220E4 solid 0.01vw;
+
+}
+.black{
+  color: seagreen;
+font-size: 1.1vw;
+}
+
+
+
+.company{
+  color: #1D4CEF;
+    font-size: 1.5vw;
+}

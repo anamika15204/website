@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  background: url('new1.jpg') no-repeat ;
+
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+.one {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  height: 8vw;
+  width: 8vw;
+  display: inline-block;
+  border-bottom: 0.3vw solid  #D63494;
+  border-right: 0.3vw solid #D63494;
+  border-left: 0.3vw solid  #D63494;
+  border-top: 0.3vw solid #D63494;
+  border-radius: 5vw 5vw 5vw 5vw;
+}
+.one:hover{
+
+
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.find {
+  margin-left: 14vw;
+  margin-bottom: 0;
+  margin-top: 0vw;
+  clear: both;
+  display: inline-block;
+
+}
+
+li {
+  display: inline-block;
+  margin-right: 3vw;
+
+}
+
+.find a {
+  text-decoration: none;
+  color: #AAC6F5;
+  font-size: 2vw;
+  font-weight:  bolder;
+  margin-left: 9vw;
+  font-family: 'Brush Script MT',cursive;
+}
+.it1:hover {
+  color: #DB70F5;
+  transition: 0.1s;
+  font-size: 3;
+  border-radius: 1vw;
+  transform: scale(4);
+}
+
+
+hr {
+  width:76vw;
+  height: 0.1vw;
+  opacity: 0.8;
+  background: #CCE1E1;
+}
+
+.picleft {
+  display: inline-block;
+}
+
+#desktop {
+  width: 25vw;
+  height: 27vw;
+  clear: both;
+  border-radius: 5vw 5vw 5vw 5vw;
+  position: absolute;
+  margin-bottom: 14vw;
+
+}
+
+
+
+.outer {
+  width: 27vw;
+  height: 31vw;
+  background: #6F54CC;
+  margin-left:2.5vw;
+  position: absolute;
+  margin-top: 3vw;
+  clear: both;
+  border-radius: 6vw 6vw 7vw 7vw;
+}
+.inner {
+  width: 26vw;
+  height: 28vw;
+  margin-top: 4.5vw;
+  background: #D23B8B;
+  position: relative;
+  margin-left: 3vw;
+  clear: both;
+  border-radius: 6vw 6vw 6vw 6vw;
+}
+
+.inner:hover {
+  transition: 0.6s;
+  transform: scale(1.05);
+}
+
+.rightone {
+  float: right;
+  display: inline-block;
+  clear: left;
+  width: 50vw;
+
+  margin-right: 3vw;
+}
+
+span {
+  color: #d1d1d1;
+}
+#next {
+  background-image: url('pink.png');
+  background-size: cover;
+  border-radius: 5vw;
+  font-size: 1vw;
+  font-weight: bolder;
+
+  color: white;
+  margin-left: 28vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  position: relative;
+}
+
+#next:hover {
+transition: 1s;
+transform: scale(1.1);
+border-radius: 50%;
+
+}
+
+.text {
+  font-size: 1.75vw;
+  font-family: 'Brush Script MT',cursive;
+  font-weight: 700;
+  width: 34vw;
+  margin-bottom: 9vw;
+  text-align: center;
+  margin-right: 18vw;
+  margin-top: 13vw;
+  clear: both;
+  float: right;
+  margin-left: 7vw;
+  color: #d1d1d1;
+  position: relative;
+}
